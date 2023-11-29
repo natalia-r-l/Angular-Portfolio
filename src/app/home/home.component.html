@@ -1,62 +1,8 @@
+
 <div class="container-fluid">
-  <div class="row header">
-    <div
-      class="col-12 col-lg-6 d-flex justify-content-center header__first-section"
-    >
-      <img
-        src="../../../assets/images/personal-card.svg"
-        class="header__personal-card"
-        alt="Arte visual para identificar Natália Resina como Desenvolvedora Full Stack"
-      />
-    </div>
-    <div class="col-lg-6  d-none d-lg-block">
-      <img
-        src="../../../assets/images/planet-earth.png"
-        class="header__planet-earth"
-        alt="Visão de satélite de parte do planeta terra"
-      />
-    </div>
-  </div>
-
+  <app-home-header></app-home-header>
   <app-personal-info></app-personal-info>
-
-
-  <div class="row projects">
-    <h2>Projetos em Angular</h2>
-    <div class="col-md-6">
-        <div class="card " >
-          <img class="card-img" src="../../../assets/images/memoteca.svg" alt="Imagem da tela do projeto Memoteca">
-          <div class="card-body">
-            <p class="card-title">Memoteca</p>
-            <p class="card-sub-title">Sistema de cadastramento de lembretes</p>
-            <p class="card-info">Desenvolvido em Angular 14, com Reactive Forms para o cadastramento de bilhetes.
-              Utilização do package JSON Server para simular o funcionamento de uma de API REST, e
-              permitir requisições HTTP.</p>
-              <diV class="d-flex justify-content-center">
-                <a href="https://angular-memoteca-beige.vercel.app/listNotes" target="_blank" class="btn btn-pink">Acessar Projeto</a>
-              </diV>
-              <div class="d-flex justify-content-center">
-                <a href="https://github.com/natalia-r-l/Angular-Memoteca" target="_blank" class="btn btn-pink">Acessar código no Github</a>
-              </div>
-          </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-      <div class="card " >
-        <img class="card-img" src="../../../assets/images/aluraBooks.svg" alt="Imagem da tela do projeto AluraBooks">
-        <div class="card-body">
-          <p class="card-title">AluraBooks</p>
-          <p class="card-sub-title">Formulário de cadastro</p>
-          <p class="card-info">Desenvolvido em Angular 14, com Formulários orientados a Templates.
-            Consumo da API ViaCep para a validação, de CEPs, e preenchimento automático de informações de endereço.</p>
-            <diV class="d-flex justify-content-center">
-              <a href="https://angular-formulario-template-8jueea8lx-natalia-r-l.vercel.app/cadastro" target="_blank" class="btn btn-pink">Acessar Projeto</a>
-            </diV>
-            <div class="d-flex justify-content-center">
-              <a href="https://github.com/natalia-r-l/Angular-Formulario-Template" target="_blank" class="btn btn-pink">Acessar código no Github</a>
-            </div>
-        </div>
-      </div>
-  </div>
-  </div>
+  <app-angular-projects></app-angular-projects>
 </div>
+
+

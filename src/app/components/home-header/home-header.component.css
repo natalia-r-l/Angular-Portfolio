@@ -1,0 +1,25 @@
+.header{
+  height: 200px;
+  background-color: #F04578;
+}
+
+.header__personal-card{
+  width: 300px;
+}
+
+.header__planet-earth{
+  height: 200px;
+  width: 50vw;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+
+  .header {
+    height: 200px;
+  }
+
+  .header__personal-card {
+      width: 230px;
+  }
+}
