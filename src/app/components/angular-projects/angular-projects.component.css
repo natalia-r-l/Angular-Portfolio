@@ -4,6 +4,11 @@ h2{
   margin-top: 30px;
 }
 
+h4{
+  margin: 0px auto 40px 0px;
+  padding: 0;
+}
+
 .projects{
   margin: 35px 0px 0px 30px;
   padding-bottom: 30px;

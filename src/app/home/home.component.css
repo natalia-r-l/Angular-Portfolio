@@ -6,7 +6,9 @@
 }
 
 
-
-
-
-
+hr{
+  size: 10;
+  width: 95%;
+  margin: 70px auto 30px auto;
+  color: black;
+}
