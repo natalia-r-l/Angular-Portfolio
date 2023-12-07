@@ -84,4 +84,7 @@ h4{
     margin-left: 10px;
   }
 
+  h4{
+    margin: 0px auto 40px 10px;
+  }
 }
